@@ -25,7 +25,7 @@
 * Enter into the newly created "Homework1" directory
 * Create a file with the name "README.md"
 * Open README.md with the Vim editor
-* Copy and paste the source of this file into README.md
+* Copy and paste the source of this file into README.md from [here](https://raw.githubusercontent.com/AndranikSargsyan/Programming-for-economists/master/Week1/homework.md)
 * Save your changes and quit Vim
 * Add all changes to git staging area
 * Check git status
