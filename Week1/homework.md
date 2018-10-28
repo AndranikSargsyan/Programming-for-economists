@@ -5,7 +5,7 @@
 * Sign up on [https://github.com](https://github.com)
 * Create a new repository with the name "ASUE-P4E-Homeworks" on Github
 * Open up your Terminal (CTRL + ALT + T on Ubuntu)
-* Configure your name and email if you haven't done so yet
+* Configure your git name and email if you haven't done so yet
 * Create a new directory with the name "ASUE-P4E-Homeworks"
 * Enter into the newly created directory
 * Initialize a new git repository
