@@ -4,7 +4,7 @@ Ask the user for a number. Depending on whether the number is even or odd, print
 
 **Hints:**
 
-* Use input() function to ask for an input from the user and int() function to convert returned string to integer this way
+* Use input() function to ask for an input from the user and use int() function to convert the returned string into an integer this way
 ```python
 num = int(input("Enter an integer: "))
 ```
