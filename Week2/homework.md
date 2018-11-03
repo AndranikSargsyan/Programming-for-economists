@@ -18,12 +18,11 @@ num = int(input("Enter an integer: "))
 
 ## Problem 2: Guess the number 
 
-Generate a random number between 1 and 100 (including 1 and 100). Ask the user to guess the number, then tell him/her whether he/she guessed too low, too high, or exactly right.
+Generate a random number between 1 and 100 (including 1 and 100). Ask the user to guess the number, then tell him/her whether he/she guessed too low, too high, or exactly right. Keep the game going until the user types “exit” or guesses the right number․
 
 **Bonus:**
 
-1. Keep the game going until the user types “exit” or guesses the right number
-2. Keep track of how many guesses the user has taken, and when the game ends, print that out.
+ Keep track of how many guesses the user has taken, and when the game ends, print that out.
 
 **Hints:**
 * Use random module to generate a random number
