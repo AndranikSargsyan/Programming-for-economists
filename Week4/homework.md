@@ -33,3 +33,52 @@ Contestant Lost!
 Probability of winning when switching: 66.7%
 Probability of winning when NOT switching: 33.3%
 ```
+
+## Problem 2: Optimize it!
+
+![function graph](https://github.com/AndranikSargsyan/Programming-for-economists/blob/master/Week4/Resources/graph_1.png)
+
+Approximate the minimum point of the following function using Newton–Raphson method and compute the value at that point (minimum).
+
+![0.05 * x ^ 4 + 0.1 * x ^ 3 + 0.5 * x ^2 + 10 * x + 5](https://github.com/AndranikSargsyan/Programming-for-economists/blob/master/Week4/Resources/equation_1.png)
+
+
+**Requirements**
+* Program should ask to give an initial x_min value and number of iterations to make
+* Program should print the estimated value of x_min for each iteration
+```
+Estimated value of x_min after iteration 1:     6.27
+Estimated value of x_min after iteration 2:     3.54
+Estimated value of x_min after iteration 3:     1.08
+Estimated value of x_min after iteration 4:    -3.89
+Estimated value of x_min after iteration 5:    -3.75
+```
+* Program should print both minimum point and minimum value
+```
+x_min = -3.739
+y_min = -20.855
+```
+
+**Hints:**
+
+* Use this equation to approximate the minimum point
+
+![x_{k+1} = x_k - f'(x) / f''(x)](https://github.com/AndranikSargsyan/Programming-for-economists/blob/master/Week4/Resources/equation_2.png)
+
+* Define these functions and do the calculations using them
+
+```python
+# calculates and returns value of the given function at point x
+def f(x):
+    pass
+
+# calculates and returns value of the first
+# derivative of the given function at point x
+def f_d1(x):
+    pass
+
+# calculates and returns value of the second
+# derivative of the given function at point x
+def f_d2(x):
+    pass
+```
